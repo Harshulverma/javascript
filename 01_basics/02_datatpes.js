@@ -18,3 +18,26 @@ let isloggedin=false
 // object
 
 console.log(typeof"harshul");
+
+
+/* primitive
+7 types : string,number,boolean,null,undefined,symbol,bigInt,
+*/
+
+const id =Symbol('123')
+const anotherid=Symbol('123')
+console.log(id===anotherid);
+
+/* refrence(non primitive)
+arrays,objects,functions*/
+
+const heros =["shaktiman","chotabheem","krish"];
+let mybobj={
+    name:"harshul",
+    age:21,
+}
+
+const myfunction=function(){
+    console.log("hellow world");
+}
+  
