@@ -40,4 +40,14 @@ let mybobj={
 const myfunction=function(){
     console.log("hellow world");
 }
-  
+//********************************************* */
+  // stack(primitive)->copy, heap(non-primitive)->refrence
+ 
+  let user={
+    email:"user@google.com",
+    upi:"harshulv49@axl",
+  }
+  let user2=user
+  user2.email="hello@gamil.com"
+  console.log(user.email);
+  console.log(user2.email);
