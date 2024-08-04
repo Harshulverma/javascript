@@ -16,5 +16,5 @@ console.log(hundreds.toLocaleString('en-In'));
 //*********************maths************************** */
 
 console.log(Math);
-console.log(math.abs(-4))
-console.log(math.round(4.6));
+console.log(Math.abs(-4))
+console.log(Math.round(4.6));
