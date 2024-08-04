@@ -4,7 +4,7 @@ const marks=50
 //console.log(name+marks);
 console.log(`hello my name is ${name} and my marks is ${marks}`);
 
-const gameName =new String('Harshudds')
+const gameName =new String('Harshul')
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 
