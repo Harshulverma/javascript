@@ -18,3 +18,8 @@ console.log(hundreds.toLocaleString('en-In'));
 console.log(Math);
 console.log(Math.abs(-4))
 console.log(Math.round(4.6));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+console.log(Math.min(4,3,6,8));
+console.log(Math.max(4,3,6,8));
+console.log(Math.random());// its  vlaue is always b/w the [0-1]
